@@ -1,4 +1,4 @@
-##react项目中使用mocha进行单元测试
+## react项目中使用mocha结合chai断言库进行单元测试
 
 ##### 项目搭建
 `create-react-app react-mocha-test` 创建一个名称为 `react-mocha-test` 的react项目
