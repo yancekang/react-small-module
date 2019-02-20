@@ -24,21 +24,6 @@ describe('两个数字之和', function() {
   })
 })
 
-describe('保留两位小数不四舍五入', function() {
-  it('2.3333333 ～ 2.33', function() {
-    expect(KeepTwoDecimal(2.333333)).to.be.equal(2.33)
-  })
-  it('1.23 ～ 1.23', function() {
-    expect(KeepTwoDecimal(1.23)).to.be.equal(1.23)
-  })
-  it('1.2399999 ～ 1.23', function() {
-    expect(KeepTwoDecimal(1.2399999)).to.be.equal(1.23)
-  })
-  it('9.999999999 ～ 1.23', function() {
-    expect(KeepTwoDecimal(9.999999999)).to.be.equal(9.99)
-  })
-})
-
 describe('获取url中的参数 url:http://www.baidu.com?ie=utf-8&code=48921312', function() {
   let url = 'http://www.baidu.com?ie=utf-8&code=48921312'
   it('ie:utf-8', function () {
