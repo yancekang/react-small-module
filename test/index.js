@@ -1,4 +1,4 @@
-let {checkSex, add, KeepTwoDecimal, getParameterByName} = require('../src/tool/tool.js');
+let {checkSex, add,  getParameterByName} = require('../src/tool/tool.js');
 let expect = require('chai').expect;
 
 describe('根据身份证号码验证用户性别', function() {
