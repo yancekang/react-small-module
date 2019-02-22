@@ -34,6 +34,7 @@
     "jest-resolve": "23.6.0",
     "jest-watch-typeahead": "^0.2.1",
     "mini-css-extract-plugin": "0.5.0",
+    "notification-koro1": "^1.1.1",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.2.1",
     "postcss-flexbugs-fixes": "4.1.0",
@@ -85,7 +86,7 @@
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
     ],
     "testEnvironment": "jsdom",
-    "testURL": "http://localhost",
+    "testURL": "http://0.0.0.0",
     "transform": {
       "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
