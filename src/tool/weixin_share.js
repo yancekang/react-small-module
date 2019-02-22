@@ -1,6 +1,5 @@
 import wx from 'weixin-js-sdk'
 // import api from '@/tool/api'
-
 export default o => {
   let domDesc = document.getElementsByTagName('meta')['description']
   let domDescContent = domDesc ? domDesc.content : null

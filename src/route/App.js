@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 // Redirect
-import Index from '@/page/weixinshare'
+import Index from '@/page/weixinshare.jsx'
 
 
 export default class App extends Component {
