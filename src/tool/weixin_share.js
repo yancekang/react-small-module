@@ -18,11 +18,11 @@ export default o => {
   // api.get('wechat_sdk', { url: document.location.href.split('#')[0] }, r => {
   // })
   wx.config({
-    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
     appId: 'wxd1b7a6660a7603ce', // 必填，公众号的唯一标识
-    timestamp: '1550808142', // 必填，生成签名的时间戳
+    timestamp: '1551064976', // 必填，生成签名的时间戳
     nonceStr: 'el6lYfN7yoaavXum', // 必填，生成签名的随机串
-    signature: '851a674761d975af760c5fc2a163598c4cbeab48',// 必填，签名，见附录1
+    signature: 'db4f9cf55c862cdf984d219435cfb611528c6ae5',// 必填，签名，见附录1
     jsApiList: [
       'onMenuShareAppMessage',
       'onMenuShareTimeline',

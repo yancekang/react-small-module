@@ -26,6 +26,9 @@ class App extends Component {
             <li>
               <Link to="/notification">桌面通知</Link>
             </li>
+            <li>
+              <Link to="/h5_camera">h5拍照上传</Link>
+            </li>
           </ul>
         </div>
       </div>
